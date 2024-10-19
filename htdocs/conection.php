@@ -3,7 +3,7 @@
         public static function conect()
         {
            try {
-            $con=new PDO('mysql:localhost=host; dbname=crudsystem','root','@Iamvijay595');
+            $con=new PDO('mysql:localhost=host; dbname=crudsystem','root','XXXX');
             return $con;
            } catch (PDOException $error1) {
                 echo 'Something went wrong, with you conection!'.$error1->getMessage();
