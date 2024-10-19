@@ -1,0 +1,20 @@
+Run App--->
+
+cd C:\htdocs
+php -S localhost:8000
+http://localhost:8000/login.php
+
+---SQL
+CREATE DATABASE crudsystem;
+
+USE crudsystem;
+
+CREATE TABLE crudtable(
+	id int not null AUTO_INCREMENT PRIMARY key,
+	name varchar(40),
+	lastName varchar(40),
+	email varchar(40),
+	pass varchar(40)
+);
+
+SELECT * FROM crudtable;
